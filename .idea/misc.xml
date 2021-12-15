@@ -4,7 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Learning Workspace/SalesForceSDK/app/src/main/res/layout/activity_main.xml" value="0.16979166666666667" />
+        <entry key="..\:/Learning Workspace/SalesForceSDK/libs/SalesforceSDK/res/layout/sf__login.xml" value="0.18385416666666668" />
+        <entry key="..\:/Learning Workspace/SalesForceSDK/libs/SalesforceSDK/res/layout/sf__manage_space.xml" value="0.18385416666666668" />
+        <entry key="..\:/Learning Workspace/SalesForceSDK/libs/SalesforceSDK/res/layout/sf__screen_lock.xml" value="0.18385416666666668" />
+        <entry key="..\:/Learning Workspace/SalesForceSDK/libs/SalesforceSDK/res/layout/sf__server_picker.xml" value="0.18385416666666668" />
         <entry key="..\:/Learning Workspace/SalesForceSDK/libs/SmartStore/res/layout/sf__inspector.xml" value="0.18385416666666668" />
+        <entry key="..\:/Learning Workspace/SalesForceSDK/libs/SmartStore/res/layout/sf__inspector_menu_popup_item.xml" value="0.18385416666666668" />
+        <entry key="..\:/Learning Workspace/SalesForceSDK/libs/SmartStore/res/layout/sf__inspector_result_cell.xml" value="0.18385416666666668" />
         <entry key="..\:/Learning Workspace/SalesForceSDK/libs/test/SmartStoreTest/res/layout/main.xml" value="0.18385416666666668" />
       </map>
     </option>
