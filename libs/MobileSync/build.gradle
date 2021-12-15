@@ -72,9 +72,9 @@ project.afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                groupId = 'com.cts.salesforcesdk'
+                groupId = 'com.salesforce.mobilesdk'
                 artifactId = 'MobileSync'
-                version = '9.3.0'
+                version = '9.2.0'
 
                 from components.release
             }

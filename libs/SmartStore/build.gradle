@@ -6,6 +6,7 @@ buildscript {
 }
 
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
 dependencies {
     api project(':libs:SalesforceSDK')
@@ -67,11 +68,25 @@ android {
   }
 }
 
-ext {
+project.afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                groupId = 'com.salesforce.mobilesdk'
+                artifactId = 'SmartStore'
+                version = '9.2.0'
+
+                from components.release
+            }
+        }
+    }
+}
+
+/*ext {
     PUBLISH_GROUP_ID = 'com.salesforce.mobilesdk'
     PUBLISH_VERSION = '9.2.0'
     PUBLISH_ARTIFACT_ID = 'SmartStore'
-}
+}*/
 
 if (rootProject.name == 'SalesforceMobileSDK-Android') {
     apply from: "${rootProject.projectDir}/publish/publish-module.gradle"
