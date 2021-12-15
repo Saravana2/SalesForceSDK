@@ -1,0 +1,25 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Project exclude paths
+/libs/MobileSync/build/
+/libs/MobileSync/build/intermediates/javac/debug/classes/
+/libs/SalesforceAnalytics/build/
+/libs/SalesforceAnalytics/build/intermediates/javac/debug/classes/
+/libs/SalesforceSDK/build/
+/libs/SalesforceSDK/build/intermediates/javac/debug/classes/
+/libs/SmartStore/build/
+/libs/SmartStore/build/intermediates/javac/debug/classes/
