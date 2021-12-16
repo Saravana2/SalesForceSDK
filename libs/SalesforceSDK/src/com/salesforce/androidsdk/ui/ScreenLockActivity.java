@@ -95,7 +95,6 @@ public class ScreenLockActivity extends FragmentActivity {
         errorMessage.getRootView().setBackground(ResourcesCompat.getDrawable(getResources(),R.drawable.lock_screen_gradient,null));
         logoutButton = findViewById(R.id.sf__screen_lock_logout_button);
         logoutButton.setOnClickListener(v -> logoutScreenLockUsers());
-        logoutButton.setVisibility(View.GONE);
         actionButton = findViewById(R.id.sf__screen_action_button);
         ImageView appIcon = findViewById(R.id.sf__app_icon);
 
@@ -282,11 +281,11 @@ public class ScreenLockActivity extends FragmentActivity {
     private void setErrorMessage(String message) {
         errorMessage.setText(message);
         errorMessage.setVisibility(View.VISIBLE);
-        //logoutButton.setVisibility(View.VISIBLE);
+        logoutButton.setVisibility(View.VISIBLE);
     }
 
     private void resetUI() {
-        //logoutButton.setVisibility(View.GONE);
+        logoutButton.setVisibility(View.GONE);
         errorMessage.setVisibility(View.GONE);
         actionButton.setVisibility(View.GONE);
     }
