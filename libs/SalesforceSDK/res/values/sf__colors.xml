@@ -18,4 +18,7 @@
     <color name="sf__hint_color_dark">#42D5B0B0</color>
     <color name="sf__accessibility_nav_color">#3e3e3c</color> <!-- SLDS grey 11 -->
     <color name="sf__subtext_color">#706E6B</color> <!-- SLDS grey 9 -->
+
+    <color name="gradient_start">#602BBE</color>
+    <color name="gradient_end">#294CA0</color>
 </resources>

@@ -92,19 +92,22 @@ public class ScreenLockActivity extends FragmentActivity {
         setContentView(R.layout.sf__screen_lock);
 
         errorMessage = findViewById(R.id.sf__screen_lock_error_message);
+        errorMessage.getRootView().setBackground(ResourcesCompat.getDrawable(getResources(),R.drawable.lock_screen_gradient,null));
         logoutButton = findViewById(R.id.sf__screen_lock_logout_button);
         logoutButton.setOnClickListener(v -> logoutScreenLockUsers());
         logoutButton.setVisibility(View.GONE);
         actionButton = findViewById(R.id.sf__screen_action_button);
         ImageView appIcon = findViewById(R.id.sf__app_icon);
 
+        appIcon.setImageDrawable(ResourcesCompat.getDrawable(getResources(),R.drawable.ic_abbvie_logo,null));
+        /*
         try {
             Drawable icon = getPackageManager().getApplicationIcon(getApplicationInfo().packageName);
             appIcon.setImageDrawable(icon);
         } catch (PackageManager.NameNotFoundException e) {
             SalesforceSDKLogger.e(TAG, "Unable to retrieve host app icon.  NameNotFoundException: " + e.getMessage());
             appIcon.setImageDrawable(ResourcesCompat.getDrawable(getResources(), R.drawable.sf__salesforce_logo, null));
-        }
+        }*/
 
         presentAuth();
     }

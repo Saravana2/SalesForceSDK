@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Learning Workspace/SalesForceSDK/app/src/main/res/layout/activity_main.xml" value="0.16979166666666667" />
+        <entry key="..\:/Learning Workspace/SalesForceSDK/libs/SalesforceSDK/res/drawable/ic_abbvie_logo.xml" value="0.2" />
+        <entry key="..\:/Learning Workspace/SalesForceSDK/libs/SalesforceSDK/res/drawable/lock_screen_gradient.xml" value="0.2" />
+        <entry key="..\:/Learning Workspace/SalesForceSDK/libs/SalesforceSDK/res/drawable/sf__white_color_button.xml" value="0.2" />
         <entry key="..\:/Learning Workspace/SalesForceSDK/libs/SalesforceSDK/res/layout/sf__login.xml" value="0.18385416666666668" />
         <entry key="..\:/Learning Workspace/SalesForceSDK/libs/SalesforceSDK/res/layout/sf__manage_space.xml" value="0.18385416666666668" />
         <entry key="..\:/Learning Workspace/SalesForceSDK/libs/SalesforceSDK/res/layout/sf__screen_lock.xml" value="0.18385416666666668" />
